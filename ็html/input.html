@@ -16,17 +16,19 @@
         </select> <br><br>
         ชื่อ : <input type="text" required> <br><br>
         นามสกุล : <input type="text" required> <br><br>
-        เลขประจำตัวประชาชน(13 หลัก) : <input type="text" required> <br><br>
+        เลขประจำตัวประชาชน(13 หลัก) : <input type="text" maxlength="13" required> <br><br>
         วันเดือนปีเกิด : <input type="date" required> <br><br>
         อายุ(ปี) : <input type="number" required> <br><br>
         เพศ : <input type="radio"> ชาย
-                <input type="radio"> หญิง <br><br>
+                <input type="radio"> หญิง 
+                <input type="radio"> ไม่ระบุเพศ <br><br>
         สัญชาติ : <input type="text" required> <br><br>
         เชื้อชาติ : <input type="text" required> <br><br>
         ศาสนา : <input type="text" required> <br><br>
         เบอร์โทรศัพท์ : <input type="tel" required> <br><br>
         อีเมล : <input type="email" required> <br><br>
         ที่อยู่ : <textarea rows="1" cols="50" required></textarea> <br><br>
+
         <h2>ข้อมูลการสมัครเรียน</h2>
         วุฒิที่จบมา : <select>
             <option value="ม.6">ม.6</option>
@@ -42,6 +44,7 @@
             <option value="วิศวกรรมสารสนเทศและเครือข่าย(เทียบโอน)">INET</option>
         </select> <br><br>
         เหตุผลที่เลือกสาขานี้ : <textarea rows="1" cols="50" required></textarea> <br><br>
+
         <h2>ประวัติการศึกษา</h2>
             <p>ให้นักเรียนกรอกข้อมูลการศึกษา 3 ระดับ ได้แก่:</p>
             <table>
@@ -86,6 +89,7 @@
                 </tr>
             </tbody>
         </table>
+        
         <h2>เอกสารแนบ</h2>
         แนบไฟล์สำเนาบัตรประชาชน : <input type="file" accept=".jpg, .jpeg, .png" required> <br><br>
         แนบไฟล์วุฒิการศึกษา(เช่น ปพ.1) : <input type="file" accept=".pdf, .jpg, .jpeg, .png" required> <br><br>
